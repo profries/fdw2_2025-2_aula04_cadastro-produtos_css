@@ -1,12 +1,11 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { TabelaProdutos } from "./tabela-produtos/tabela-produtos";
 import { FormProdutos } from "./form-produtos/form-produtos";
-import { CardProduto } from "./card-produto/card-produto";
+import { ListCardProdutos } from "./list-card-produtos/list-card-produtos";
 
 @Component({
   selector: 'app-root',
-  imports: [TabelaProdutos, FormProdutos, CardProduto],
+  imports: [TabelaProdutos, FormProdutos, ListCardProdutos],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

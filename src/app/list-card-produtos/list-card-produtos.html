@@ -1,0 +1,10 @@
+<h2>ListCard de Produtos</h2>
+
+
+<div class="row">
+@for(prod of listaProdutos; track prod.id) {
+    <div class="column">
+        <app-card-produto [produto]="prod"></app-card-produto>
+    </div>
+}
+</div>
